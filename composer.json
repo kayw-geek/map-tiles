@@ -1,0 +1,32 @@
+{
+    "name": "kayw-geek/map-tiles",
+    "description": "This package provides map latitude and longitude conversion to tile coordinates, calculation of the latitude and longitude range, conversion of the tile coordinate range, downloading the map tile image within the specified range through the latitude and longitude (image resources from openstreetmap)",
+    "type": "composer-plugin",
+    "keywords": [
+        "openstreetmap",
+        "map",
+        "tiles",
+        "latitude",
+        "longitude"
+    ],
+    "homepage": "https://github.com/overtrue/pinyin",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "KaywGeek\\Map\\": "./src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kayw-geek",
+            "email": "weikaiii@sina.cn"
+        }
+    ],
+    "minimum-stability": "dev"
+}
