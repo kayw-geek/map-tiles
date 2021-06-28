@@ -2,7 +2,7 @@
 
 namespace KaywGeek\Map\Test;
 
-use KaywGeek\Map\MapTriaits;
+use KaywGeek\Map\MapTraits;
 use PHPUnit\Framework\TestCase;
 
 class MapTest extends TestCase

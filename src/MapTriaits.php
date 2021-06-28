@@ -7,7 +7,7 @@ namespace KaywGeek\Map;
 
 use KaywGeek\Map\Exceptions\InvalidArgumentException;
 
-trait MapTriaits
+trait MapTraits
 {
 
     public $rangeValue = 0.2;
